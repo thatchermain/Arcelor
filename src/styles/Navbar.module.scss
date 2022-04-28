@@ -1,0 +1,28 @@
+@import "./variables";
+
+.nav {
+  position: fixed;
+  width: 100vw;
+  height: 75px;
+  margin: 0 auto;
+  background-color: $navBg;
+  z-index: 10;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem 0;
+}
+.menu {
+  display: flex;
+  width: 70%;
+  //   background-color: yellow;
+}
+.navList {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: space-between;
+  align-items: end;
+  list-style: none;
+  text-decoration: none;
+}

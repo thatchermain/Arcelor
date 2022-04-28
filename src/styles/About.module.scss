@@ -1,0 +1,51 @@
+@import "../styles/variables";
+    
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $textDark;
+    padding: 4rem 0;
+    
+}
+.h2{
+    font-size: 2.5rem;
+    font-family: 'Gilroy-Bold';
+    padding: 1rem 0 2rem;
+}
+.h4{
+    font-size: 1.5rem;
+    font-family: 'Gilroy-Medium';
+    padding: 0 0 3rem;
+
+}
+.applyBtn{
+width: 240px;
+}
+.wrapperGray{
+    background-color: $bgLight;
+    padding: 2rem 0;
+}
+.content{
+    width: 70%;
+}
+.h2Gradient{
+    font-size: 3rem;
+    font-family: 'Gilroy-Bold';
+    background: -webkit-linear-gradient(left, #9B1F78,#EF6A44 30%);
+    background-clip:text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.h3{
+    padding: 2rem 0;
+    font-size: 1.75rem;
+    color:$textBlack;
+}
+.paragraph{
+    font-size: 1rem;
+    color:$textBlack;
+    padding: 2rem 0 0;
+    
+
+}

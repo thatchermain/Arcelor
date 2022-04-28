@@ -1,0 +1,32 @@
+//-------------
+//FONTS
+//-------------
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+//-------------
+//COLORS
+//-------------
+
+$textWhite: #ffffff;
+$textDark: #414141;
+$textBlack: #000000;
+$mainRed: #ff3700;
+$bgLight: #d8d8d8;
+$bgDark: #3f3f3f;
+$gradientFirst: #160744;
+$gradientSecond: #6f1a7a;
+$gradientThird: #e54949;
+$gradientFourth: #ee8254;
+$navBg: rgba(0, 0, 0, 0.7);

@@ -1,0 +1,45 @@
+@import './variables';
+
+.footer{
+    background-color: $bgDark;
+    color: $textWhite;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0 ;
+}
+.name{
+    font-family: 'Gilroy-Regular';
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+.address{
+    font-size: 1rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+
+}
+.copyright{
+    &:before{
+        content: '©';
+        height: 1rem;
+        width: 1rem;
+    }
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    cursor: pointer;
+    display: block;
+    padding: 1rem;
+    transition: .4s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

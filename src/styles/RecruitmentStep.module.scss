@@ -1,0 +1,48 @@
+@import './variables';
+
+.wrapper{
+    padding: 1rem;
+    display: flex;
+}
+.number{
+    padding: 0 2rem 0 0 ;
+    
+}
+.span{
+    font-size: 2rem;
+    color: $bgLight;
+}
+.details{
+    position: relative;
+    padding: 0 4rem 0 0 ;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    &:after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: -15%;
+        background-color: #000000;
+    }
+}
+.title{
+    color: $mainRed;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+.description{
+    position: relative;
+    padding: .5rem 0;
+    font-size: 1rem;
+    
+}
+.noAfter{
+    position: relative;
+    padding: 0 4rem 0 0 ;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}

@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scroll-padding-top: 75px;
 }
 body {
   overflow-x: hidden;
@@ -44,10 +45,13 @@ body {
   align-items: center;
   padding: 0 2rem;
   overflow: hidden;
+  &:after{
+    content: url('../images/BtbArrow.png');
+  }
   &:hover{
     color: #ffffff;
   }
-  &:after{
+  &:before{
     z-index: -1;
     content: '';
     width: 300px;
@@ -59,10 +63,12 @@ body {
     transform-origin: 100% 0;
     transition: transform 1s;
   }
-  &:hover:after{
+  &:hover:before{
     transform: scaleX(1);
     transform-origin:0% 0;
-
+  }
+  &:hover:after{
+    filter: invert(100%);
   }
  
 }

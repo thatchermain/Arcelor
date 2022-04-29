@@ -3,6 +3,7 @@ import Hero from "./components/Hero.jsx";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
       <main>
         <MainContent />
       </main>
-      <footer></footer>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

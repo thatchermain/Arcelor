@@ -39,7 +39,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="link" href="benefity">
+              <a className="link" href="#staze">
                 Benefity
               </a>
             </li>
@@ -49,7 +49,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a className="link" href="#nasze_wspolprace">
+              <a className="link" href="#wspolpraca">
                 Nasze współprace
               </a>
             </li>

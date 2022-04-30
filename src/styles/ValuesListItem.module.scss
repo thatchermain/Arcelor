@@ -3,6 +3,10 @@
 .wrapper{
     padding: 1rem;
     display: flex;
+    @media screen and (max-width:900px) {
+        padding: 0;
+        
+    }
 }
 .details{
     position: relative;
@@ -22,5 +26,10 @@
     font-size: 1rem;
     // line-height: 23px;
     // font-family: 'Gilroy-Regular';
+    @media screen and (max-width:1200px) {
+        padding: 1rem 1rem 0 0;
+        font-size: .75rem;
+        line-height: 1.5;
+    }
     
 }

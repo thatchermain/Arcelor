@@ -40,7 +40,7 @@ const Praktyki = () => {
 
         <Button title="Sprawdź oferty praktyk" />
       </div>
-      <div className={`${styles.image} ${styles.imageRight}`}>
+      <div className={styles.image}>
         <img src={PraktykiImg} alt="" className={styles.picture} />
       </div>
     </article>

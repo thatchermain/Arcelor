@@ -7,6 +7,15 @@
     grid-template-columns: 2fr 3fr;
     gap: 3rem;
     font-family: 'Gilroy-Regular';
+    @media screen and (max-width:1200px) {
+        padding-bottom: 5rem;
+        min-height: 100%;
+    }
+    @media screen and (max-width:900px) {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 .image{
@@ -18,11 +27,18 @@
 }
 .info{
     max-width: 840px;
-    padding: 1rem 3rem;
+    padding: 1rem 5rem;
     // border: 2px solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
+    @media screen and (max-width:1200px) {
+        padding: 1rem 2rem 0 0;
+    }
+    @media screen and (max-width:900px) {
+        padding: 2rem;
+        width: 80%;
+    }
 }
 .h4{
     color: $mainRed;    
@@ -34,13 +50,26 @@
     font-weight: 700;
     color: $textDark;    
     padding: 1rem 0 2rem;
+    @media screen and (max-width:1200px) {
+        padding: 1rem 0 0;
+    }
     
 }
 .paragraph{
     line-height: 23px;
     font-size: 1rem;
     color: $textBlack;    
-    padding: 1rem 10rem 0 0 ;
+    padding: 1rem 7rem 0 0 ;
+    @media screen and (max-width:1200px) {
+        padding: 1rem 1rem 0 0;
+        font-size: .75rem;
+        line-height: 1.5;
+    }
+    @media screen and (max-width:900px) {
+        line-height: 23px;
+        font-size: 1rem;
+        // padding: 1rem 7rem 0 0 ;
+    }
     
 }
 .hiperlink{
@@ -51,10 +80,17 @@
     display: flex;
     justify-content: space-between;    
     align-items: center; 
+    @media screen and (max-width:1200px) {
+        padding: 1rem 0;
+    }
+    @media screen and (max-width:900px) {
+        padding: 2rem 0;
+    }
 }
 .span{
     position: relative;
     padding: 1rem 0 .5rem;
+    overflow: hidden;
     &:before{
         position: absolute;
         content: '';

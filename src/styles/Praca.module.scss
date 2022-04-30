@@ -7,6 +7,15 @@
     grid-template-columns: 2fr 3fr;
     gap: 3rem;
     font-family: 'Gilroy-Regular';
+    @media screen and (max-width:1200px) {
+        padding-bottom: 5rem;
+        min-height: 100%;
+      
+    }
+    @media screen and (max-width:900px) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .image{
@@ -22,7 +31,14 @@
     // border: 2px solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
+    @media screen and (max-width:1200px) {
+        padding: 1rem 2rem 0 0;
+    }
+    @media screen and (max-width:900px) {
+        padding: 2rem;
+        width: 90%;
+    }
 }
 .h4{
     color: $mainRed;    
@@ -41,6 +57,17 @@
     font-size: 1rem;
     color: $textBlack;    
     padding: 1rem 0 0;
+    @media screen and (max-width:1200px) {
+        padding: 1rem 1rem 0 0;
+        font-size: .75rem;
+        line-height: 1.5;
+    }
+    
+    @media screen and (max-width:900px) {
+        line-height: 23px;
+        font-size: 1rem;
+        padding: 1rem 2rem 0 0 ;
+    }
     
 }
 .list{  
@@ -60,5 +87,15 @@
         background-color: $mainRed;
         left: -10px;
         top: 22px;
+    }
+    @media screen and (max-width:1200px) {
+        padding: 1rem 1rem 0 0;
+        font-size: .75rem;
+        line-height: 1.5;
+    }
+    @media screen and (max-width:900px) {
+        line-height: 23px;
+        font-size: 1rem;
+        padding: 1rem 1rem 0 0 ;
     }
 }

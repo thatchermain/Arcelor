@@ -2,19 +2,42 @@
 
 .wrapper{
     padding: 3rem 0 0;
-    min-height: 800px;
+    min-height: 880px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
-
+    grid-template-columns: 3fr 2fr;  
+    // min-width: 100%;
     font-family: 'Gilroy-Regular';
+    // border: 5px solid  black;
+    @media screen and (max-width:1200px) {
+        grid-template-columns: 3fr 3fr;  
+        padding: 0;
+        min-height: 100%;
+        // padding-bottom: 5rem;
+      
+    }
+    @media screen and (max-width:900px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
 }
 
 .image{
     // border: 2px solid red;
-    max-width: 540px;
+    justify-self: end;
+    max-width: 610px;
+    // max-width: 100%;
+    @media screen and (max-width:1200px) {
+        max-width: 430px;
+    }
+    @media screen and (max-width:900px) {
+        max-width: 610px;   
+        margin-left: auto;
+        
+    }
 }
 .picture{
-    width: 100%;
+
 }
 .info{
     max-width: 740px;
@@ -22,7 +45,14 @@
     // border: 2px solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    // justify-content: center;
+    @media screen and (max-width:1200px) {
+        padding: 0 0 0 5rem;
+    }
+    @media screen and (max-width:900px) {
+        max-width: 80%;
+        padding: 2rem;
+    }
 }
 .h4{
     color: $mainRed;    
@@ -41,11 +71,25 @@
     font-size: 1rem;
     color: $textBlack;    
     padding: 1rem 0;
+    @media screen and (max-width:1200px) {
+        padding: 1rem 0rem;
+        font-size: .75rem;
+        line-height: 1.5;
+    }
+    @media screen and (max-width:900px) {
+        
+        line-height: 23px;
+        font-size: 1rem;
+       
+    }
     
 }
-.imageRight{
-    text-align: right;
-}.infoLeft{
+// .imageRight{
+//     border: 2px solid red;
+//         max-width: 540px;
+//   justify-self: end;
+// }
+.infoLeft{
     padding: 4rem 10rem 4rem 10rem;
     width: 60%;
 

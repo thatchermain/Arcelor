@@ -177,7 +177,11 @@ const MainContent = () => {
             </div>
             <div className={styles.column}>
               <div className={styles.coopImg}>
-                <img src={Colab} alt="To be filled with content" />
+                <img
+                  src={Colab}
+                  alt="To be filled with content"
+                  className={styles.coopPicture}
+                />
               </div>
               <div className={styles.coopParagraph}>
                 <p>

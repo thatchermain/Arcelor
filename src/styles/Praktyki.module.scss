@@ -1,0 +1,55 @@
+@import './variables';
+
+.wrapper{
+    padding: 3rem 0 0;
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    font-family: 'Gilroy-Regular';
+}
+
+.image{
+    // border: 2px solid red;
+    max-width: 540px;
+}
+.picture{
+    width: 100%;
+}
+.info{
+    max-width: 740px;
+    padding: 1rem 3rem 1rem 10rem;
+    // border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h4{
+    color: $mainRed;    
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: $textDark;    
+    padding: 1rem 0 2rem;
+    
+}
+.paragraph{
+    line-height: 23px;
+    font-size: 1rem;
+    color: $textBlack;    
+    padding: 1rem 0;
+    
+}
+.imageRight{
+    text-align: right;
+}.infoLeft{
+    padding: 4rem 10rem 4rem 10rem;
+    width: 60%;
+
+}
+.picture{
+    width: 100%;
+}

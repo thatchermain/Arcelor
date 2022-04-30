@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <section id="o_nas">
+    <section>
       <div className="container">
         <div className={styles.wrapper}>
           <h2 className={styles.h2}>
@@ -24,7 +24,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className={styles.wrapperGray}>
+      <div className={styles.wrapperGray} id="o_nas">
         <div className={`${styles.wrapper} container`}>
           <div className={styles.content}>
             <h2 className={styles.h2Gradient}>Poznaj nas</h2>

@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import Benefits from "./components/Benefits";
+// import Benefits from "./components/Benefits";
 
 function App() {
   return (

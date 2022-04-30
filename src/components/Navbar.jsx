@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Navbar.module.scss";
 import Logo from "../images/logo.png";
 
-const Navbar = () => {
+const Navbar = ({ toggle, isOpen, setIsOpen }) => {
   return (
     <nav className={styles.nav}>
       <div className={`${styles.wrapper} container`}>
@@ -38,7 +38,12 @@ const Navbar = () => {
                 Rekrutacja
               </a>
             </li>
-            <li>
+            <li
+              onClick={toggle}
+              toggle={toggle}
+              isOpen={isOpen}
+              setIsOpen={setIsOpen}
+            >
               <a className="link" href="#staze">
                 Benefity
               </a>

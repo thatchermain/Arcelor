@@ -1,39 +1,61 @@
 @import './variables';
 
 .wrapper{
-padding: 5rem 0 0 0;
-font-family: 'Gilroy-Regular';
-// width: 80%;
-}
-.h3{
-    font-size: 1.5rem;
-    color: $mainRed;
-
-}
-.benefits{
-    padding: 2rem 0;
+    padding: 3rem 0 0;
+    min-height: 800px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 2fr 3fr;
     gap: 3rem;
+    font-family: 'Gilroy-Regular';
+}
+
+.image{
+    // border: 2px solid red;
+    max-width: 540px;
+}
+.picture{
     width: 100%;
+}
+.info{
+    max-width: 840px;
+    padding: 1rem 3rem;
     // border: 2px solid blue;
-
+    display: flex;
     flex-direction: column;
-
+    justify-content: center;
+}
+.h4{
+    color: $mainRed;    
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: $textDark;    
+    padding: 1rem 0 2rem;
+    
+}
+.paragraph{
+    line-height: 23px;
+    font-size: 1rem;
+    color: $textBlack;    
+    padding: 1rem 10rem 0 0 ;
+    
 }
 .hiperlink{
     cursor: pointer;
-    padding: rem 0;
-    font-family: 'Gilroy-Bold';
-    & img{
-        transform: rotate(180deg);
-        padding: 0 0 0 2rem;
-    }
+    font-weight: 700;
+    padding: 2rem 0 ; 
+    width: 200px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center; 
 }
 .span{
     position: relative;
+    padding: 1rem 0 .5rem;
     &:before{
-        
         position: absolute;
         content: '';
         width: 100%;
@@ -58,6 +80,7 @@ font-family: 'Gilroy-Regular';
 
     }
 }
+
 @keyframes slide{
     from{
    transform: translateX(100%);
@@ -67,3 +90,4 @@ font-family: 'Gilroy-Regular';
    
     }
    }
+   

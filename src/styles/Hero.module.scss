@@ -3,7 +3,12 @@
 .heroImg {
   width: 100vw;
   height: 100vh;
-  background: no-repeat url("../images/Hero.png") center;
+  @media screen and (max-width:1440px) {
+    // max-width: 1070px;
+    max-height: 690px;
+    
+  }
+  background: no-repeat url("../images/Hero.png") center top;
   background-size: cover;
   color: $textWhite;
   font-family: "Gilroy-Medium";
@@ -12,11 +17,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 100%;
 }
 .h1 {
-  font-size: 11rem;
-  padding: 10rem 0;
+
+    font-size: 10rem;
+    padding: 9rem 0;
+
 }
 .moreInfo {
   position: relative;

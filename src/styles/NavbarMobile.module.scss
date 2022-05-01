@@ -45,7 +45,7 @@
   height: 100vh;
   padding-top: 3rem;
   transition: 0.4s;
-  transform: translateX(0%);
+  // transform: translateX(0%);
   background-color: rgb(255, 255, 255);
   // border-top: 1px solid $mainRed;
 }
@@ -53,7 +53,7 @@
   list-style: none;
 }
 .listItem {
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
 .logoMobileActive {
   padding: 0.5rem 0.75rem;

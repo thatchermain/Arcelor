@@ -5,32 +5,34 @@
     flex-direction: column;
     justify-content: space-between;
     color: $textDark;
-    padding: 4rem 0;
+    padding: 2rem 0 4rem;
     
 }
 .h2{
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     font-family: 'Gilroy-Medium';
     padding: 1rem 0 2rem;
+    line-height: 33px;
 }
 .h4{
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-family: 'Gilroy-Medium';
     padding: 0 0 3rem;
 
 }
 .applyBtn{
-width: 240px;
+    width: 240px;
+    width: 100%;
 }
 .wrapperGray{
     background-color: $bgLight;
-    padding: 2rem 0;
+    padding:0;
 }
 .content{
     width: 90%;
 }
 .h2Gradient{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Gilroy-Bold';
     background: -webkit-linear-gradient(left, #9B1F78,#EF6A44 30%);
     background-clip:text ;
@@ -39,11 +41,12 @@ width: 240px;
 }
 .h3{
     padding: 2rem 0;
-    font-size: 1.8rem;
+    font-size: 1.25rem;
     color:$textBlack;
 }
 .paragraph{
-    font-size: 1rem;
+    font-size: .9rem;
+    font-size: 15px;
     color:$textBlack;
     padding: 2rem 0 0;
     

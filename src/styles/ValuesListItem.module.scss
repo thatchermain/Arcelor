@@ -1,35 +1,23 @@
-@import './variables';
+@import "./variables";
 
-.wrapper{
-    padding: 1rem;
-    display: flex;
-    @media screen and (max-width:900px) {
-        padding: 0;
-        
-    }
+.wrapper {
+  padding: 1rem 0 0;
+  display: flex;
 }
-.details{
-    position: relative;
-    // padding: 0 2rem 0 0 ;
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+.details {
+  position: relative;
+  // padding: 0 2rem 0 0 ;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
 }
-.title{
-    color: $mainRed;
-    font-size: 1.3rem;
-    padding: .5rem 0;
+.title {
+  color: $mainRed;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
 }
-.description{
-    position: relative;
-    padding: .5rem 0;
-    font-size: 1rem;
-    // line-height: 23px;
-    // font-family: 'Gilroy-Regular';
-    @media screen and (max-width:1200px) {
-        padding: 1rem 1rem 0 0;
-        font-size: .75rem;
-        line-height: 1.5;
-    }
-    
+.description {
+  position: relative;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
 }

@@ -8,12 +8,16 @@ const About = () => {
       <div className="container">
         <div className={styles.wrapper}>
           <h2 className={styles.h2}>
-            Chcesz, aby Twoja praca miała <br /> wpływ na przyszłe pokolenia?
+            Chcesz, aby Twoja praca miała wpływ na przyszłe pokolenia?
           </h2>
           <h4 className={styles.h4}>
             Masz głowę pełną pomysłów i nie boisz się wcielać ich w życie?
-          </h4>
-          <h4 className={styles.h4}>
+            <br />
+            <br />
+            <br />
+            <br />
+            {/* </h4>
+          <h4 className={styles.h4}> */}
             Aplikuj na staż w ArcelorMittal <br /> Poland i przejmij stery
             swojej kariery.
           </h4>
@@ -37,20 +41,16 @@ const About = () => {
               </h3>
               <p className={styles.paragraph}>
                 Tworząc stal, wychodzimy naprzeciw oczekiwaniom nowoczesnego
-                świata.
-                <br /> Chcemy, aby nasze produkty były coraz bardziej
-                wytrzymałe, lżejsze i produkowane
-                <br /> w zrównoważony sposób. Efekty naszej pracy będą obecne
-                także w życiu kolejnych pokoleń!
+                świata. Chcemy, aby nasze produkty były coraz bardziej
+                wytrzymałe, lżejsze i produkowane w zrównoważony sposób. Efekty
+                naszej pracy będą obecne także w życiu kolejnych pokoleń!
               </p>
               <p className={styles.paragraph}>
                 W Polsce zatrudniamy 10 tysięcy pracowników w sześciu oddziałach
-                w województwach
-                <br /> śląskim, małopolskim i opolskim. ArcelorMittal Poland
-                jest największym i najnowocześniejszym
-                <br /> producentem stali w Polsce, skupiającym 50 proc.
-                krajowego potencjału hutniczego,
-                <br /> oraz największym producentem koksu w Europie.
+                w województwach śląskim, małopolskim i opolskim. ArcelorMittal
+                Poland jest największym i najnowocześniejszym producentem stali
+                w Polsce, skupiającym 50 proc. krajowego potencjału hutniczego,
+                oraz największym producentem koksu w Europie.
               </p>
             </div>
           </div>

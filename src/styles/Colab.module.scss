@@ -1,0 +1,41 @@
+@import "./variables";
+.wrapper {
+  padding-bottom: 2rem;
+}
+.coopTitle {
+  padding: 1rem 0;
+}
+.coopParagraph {
+  margin-bottom: 2rem;
+}
+.coopImg {
+  padding: 0 0 2rem;
+}
+.coopPicture {
+  width: 100%;
+}
+.h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $textDark;
+  padding: 1rem 0 2rem;
+}
+.list {
+  padding: 0 0 0 2rem;
+  list-style: none;
+}
+.listItem {
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  position: relative;
+  color: $textBlack;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: $mainRed;
+    left: -15px;
+    top: 15px;
+  }
+}

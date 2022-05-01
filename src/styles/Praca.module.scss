@@ -1,101 +1,58 @@
-@import './variables';
+@import "./variables";
 
-.wrapper{
-    padding: 3rem 0 0;
-    min-height: 800px;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    gap: 3rem;
-    font-family: 'Gilroy-Regular';
-    @media screen and (max-width:1200px) {
-        padding-bottom: 5rem;
-        min-height: 100%;
-      
-    }
-    @media screen and (max-width:900px) {
-        display: flex;
-        flex-direction: column;
-    }
+.wrapper {
+  padding: 2rem 1rem 4rem 0;
 }
 
-.image{
-    // border: 2px solid red;
-    max-width: 540px;
+.image {
+  background-image: url("../images//Praca-mobile.png");
+  background-repeat: no-repeat;
+  max-width: 90vw;
+  min-height: 410px;
+  margin: 2rem 0 1rem;
 }
-.picture{
-    width: 100%;
+.picture {
+  width: 100%;
 }
-.info{
-    max-width: 640px;
-    padding: 1rem 3rem;
-    // border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    @media screen and (max-width:1200px) {
-        padding: 1rem 2rem 0 0;
-    }
-    @media screen and (max-width:900px) {
-        padding: 2rem;
-        width: 90%;
-    }
+.info {
+  // max-width: 90vw;
+  padding: 2rem 1rem 0 1rem;
+  // border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
 }
-.h4{
-    color: $mainRed;    
-    font-size: 1.5rem;
-    font-weight: 400;
+.h4 {
+  color: $mainRed;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-.h2{
-    font-size: 3rem;
-    font-weight: 700;
-    color: $textDark;    
-    padding: 1rem 0 2rem;
-    
+.h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $textDark;
+  padding: 1rem 0 0;
 }
-.paragraph{
-    line-height: 23px;
-    font-size: 1rem;
-    color: $textBlack;    
-    padding: 1rem 0 0;
-    @media screen and (max-width:1200px) {
-        padding: 1rem 1rem 0 0;
-        font-size: .75rem;
-        line-height: 1.5;
-    }
-    
-    @media screen and (max-width:900px) {
-        line-height: 23px;
-        font-size: 1rem;
-        padding: 1rem 2rem 0 0 ;
-    }
-    
+.paragraph {
+  line-height: 23px;
+  font-size: 0.9rem;
+  color: $textBlack;
+  padding: 1rem 0 0;
 }
-.list{  
-    padding: 0 2rem 1rem;
-    list-style: none;
-
-
+.list {
+  padding: 0 0 2rem 1rem;
+  list-style: none;
 }
-.listItem{
-    padding: 1rem 0;
-    position: relative;
-    &:before{
-        position: absolute;
-        content: '';
-        width: 5px;
-        height: 5px;
-        background-color: $mainRed;
-        left: -10px;
-        top: 22px;
-    }
-    @media screen and (max-width:1200px) {
-        padding: 1rem 1rem 0 0;
-        font-size: .75rem;
-        line-height: 1.5;
-    }
-    @media screen and (max-width:900px) {
-        line-height: 23px;
-        font-size: 1rem;
-        padding: 1rem 1rem 0 0 ;
-    }
+.listItem {
+  padding: 1rem 0 0 1rem;
+  position: relative;
+  &:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: $mainRed;
+    left: -6px;
+    top: 22px;
+  }
 }

@@ -1,66 +1,48 @@
-@import './variables';
+@import "./variables";
 
-.wrapper{
-    padding: 1rem;
-    display: flex;
-    @media screen and (max-width:900px) {
-        width: 80%;
-    }
-    @media screen and (max-width:576px) {
-        width: 100%;
-    }
+.wrapper {
+  padding: 1rem 0;
+  display: flex;
 }
-.number{
-    padding: 0 2rem 0 0 ;
-    
+.number {
+  padding: 0;
 }
-.span{
-    font-size: 2rem;
-    color: $bgLight;
+.span {
+  font-size: 1.6rem;
+  color: $bgLight;
 }
-.details{
-    position: relative;
-    padding: 0 4rem 0 0 ;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    @media screen and (max-width:900px) {
-        width: 100%;
-        padding: 0;
-        
-        
-    }
-    &:after{
-        position: absolute;
-        content: '';
-        height: 1px;
-        width: 100%;
-        left: 0;
-        bottom: -15%;
-        background-color: #000000;
-            @media screen and (max-width:900px) {
-                max-width: 400px;
-                min-width: 100%;
-                
-            }
-    }
-    
+.details {
+  position: relative;
+  //   padding: 0 4rem 0 0;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  &:after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -1rem;
+    margin: 0 1.5rem;
+    background-color: #000000;
+  }
 }
-.title{
-    color: $mainRed;
-    font-size: 1.5rem;
-    padding: .5rem 0;
+.title {
+  color: $mainRed;
+  font-size: 1.1rem;
+  padding: 0.5rem 0 0 1.5rem;
 }
-.description{
-    position: relative;
-    padding: .5rem 0;
-    font-size: .8rem;
-    
+.description {
+  position: relative;
+  padding: 0.5rem 0 0 1.5rem;
+  font-size: 0.8rem;
 }
-.noAfter{
-    position: relative;
-    padding: 0 4rem 0 0 ;
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-}
+// .noAfter {
+//   position: relative;
+//   padding: 0 4rem 0 0;
+//   display: flex;
+//   flex-direction: column;
+//   width: 80%;
+// }

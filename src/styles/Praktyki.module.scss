@@ -1,99 +1,56 @@
-@import './variables';
+@import "./variables";
 
-.wrapper{
-    padding: 3rem 0 0;
-    min-height: 880px;
-    display: grid;
-    grid-template-columns: 3fr 2fr;  
-    // min-width: 100%;
-    font-family: 'Gilroy-Regular';
-    // border: 5px solid  black;
-    @media screen and (max-width:1200px) {
-        grid-template-columns: 3fr 3fr;  
-        padding: 0;
-        min-height: 100%;
-        // padding-bottom: 5rem;
-      
-    }
-    @media screen and (max-width:900px) {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    
+.wrapper {
+  padding: 3rem 0 0;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
-.image{
-    // border: 2px solid red;
-    justify-self: end;
-    max-width: 610px;
-    // max-width: 100%;
-    @media screen and (max-width:1200px) {
-        max-width: 430px;
-    }
-    @media screen and (max-width:900px) {
-        max-width: 610px;   
-        margin-left: auto;
-        
-    }
+.image {
+  background-image: url("../images/Praktyki-mobile.png");
+  background-repeat: no-repeat;
+  // max-width: 90vw;
+  min-height: 410px;
+  margin: 2rem 0 0;
+  background-position: 100% 0;
 }
-.picture{
 
+.picture {
 }
-.info{
-    max-width: 740px;
-    padding: 1rem 3rem 1rem 10rem;
-    // border: 2px solid blue;
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    @media screen and (max-width:1200px) {
-        padding: 0 0 0 5rem;
-    }
-    @media screen and (max-width:900px) {
-        max-width: 80%;
-        padding: 2rem;
-    }
+.info {
+  // max-width: 740px;
+  padding: 0 1rem 2rem 1rem;
+  // border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
 }
-.h4{
-    color: $mainRed;    
-    font-size: 1.5rem;
-    font-weight: 400;
+.h4 {
+  color: $mainRed;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-.h2{
-    font-size: 3rem;
-    font-weight: 700;
-    color: $textDark;    
-    padding: 1rem 0 2rem;
-    
+.h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: $textDark;
+  padding: 1rem 0 0;
 }
-.paragraph{
-    line-height: 23px;
-    font-size: 1rem;
-    color: $textBlack;    
-    padding: 1rem 0;
-    @media screen and (max-width:1200px) {
-        padding: 1rem 0rem;
-        font-size: .75rem;
-        line-height: 1.5;
-    }
-    @media screen and (max-width:900px) {
-        
-        line-height: 23px;
-        font-size: 1rem;
-       
-    }
-    
+.paragraph {
+  line-height: 23px;
+  font-size: 0.9rem;
+  color: $textBlack;
+  padding: 1rem 0;
 }
 // .imageRight{
 //     border: 2px solid red;
 //         max-width: 540px;
 //   justify-self: end;
 // }
-.infoLeft{
-    padding: 4rem 10rem 4rem 10rem;
-    width: 60%;
-
+.infoLeft {
+  padding: 4rem 10rem 4rem 10rem;
+  width: 60%;
 }
-.picture{
-    width: 100%;
+.picture {
+  width: 100%;
 }

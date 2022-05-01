@@ -18,9 +18,9 @@ const Staze = () => {
     console.log(isOpen);
   };
   return (
-    <article id="staze" className={styles.wrapper}>
+    <article id="staze">
       <div className={styles.image}>
-        <img src={StazImg} alt="" className={styles.picture} />
+        {/* <img src={StazImg} alt="" className={styles.picture} /> */}
       </div>
       <div className={styles.info}>
         {isOpen ? (

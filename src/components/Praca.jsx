@@ -15,7 +15,7 @@ const Praca = () => {
   return (
     <article id="praca" className={styles.wrapper}>
       <div className={styles.image}>
-        <img src={PracaImg} alt="" className={styles.picture} />
+        {/* <img src={PracaImg} alt="" className={styles.picture} /> */}
       </div>
       <div className={styles.info}>
         <h2 className={styles.h2}>Praca</h2>

@@ -1,0 +1,23 @@
+@import "./variables";
+
+.contact {
+  background-color: $mainRed;
+  color: $textWhite;
+  font-family: "Gilroy-Medium";
+  padding: 0 0.5rem;
+}
+.h2Contact {
+  color: $textWhite;
+  font-size: 1.8rem;
+  padding: 2rem 0;
+}
+.contactWrapper {
+  padding: 0 0 3rem;
+}
+.contactParagraph {
+  font-size: 1.1rem;
+  padding: 0 1rem 1rem 0;
+}
+.contactName {
+  padding: 1rem 0 0;
+}

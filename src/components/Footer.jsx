@@ -21,19 +21,19 @@ const Footer = () => {
                 {"  "}2022 ArcelorMittal
               </span>
             </div>
-            <div className={styles.column}>
-              <div className={styles.icons}>
-                <div className={styles.icon}>
-                  <img src={Linkedin} alt="" />
-                </div>
-                <div className={styles.icon}>
-                  <img src={Twitter} alt="" />
-                </div>
-                <div className={styles.icon}>
-                  <img src={YouTube} alt="" />
-                </div>
+            {/* <div className={styles.column}> */}
+            <div className={styles.icons}>
+              <div className={styles.icon}>
+                <img src={Linkedin} alt="" />
+              </div>
+              <div className={styles.icon}>
+                <img src={Twitter} alt="" />
+              </div>
+              <div className={styles.icon}>
+                <img src={YouTube} alt="" />
               </div>
             </div>
+            {/* </div> */}
           </div>
         </div>
       </div>

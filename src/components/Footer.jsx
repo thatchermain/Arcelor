@@ -13,8 +13,8 @@ const Footer = () => {
             <div className={styles.column}>
               <h6 className={styles.name}>ArcelorMittal Poland</h6>
               <div className={styles.address}>
-                <p>41-308 Dąbrowa Górnicza,</p>
-                <p>Al. Piłsudskiego 92,</p>
+                <p>41-308 Dąbrowa Górnicza</p>
+                <p>Al. Piłsudskiego 92</p>
               </div>
               <span className={styles.copyright}>
                 {" "}

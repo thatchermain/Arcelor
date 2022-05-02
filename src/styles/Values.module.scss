@@ -8,7 +8,7 @@
   width: 100vw;
   min-height: 730px;
   //   height: auto;
-  background: no-repeat url("../images/Values-mobile.png") center;
+  background: no-repeat url("../images/Values-mobile.webp") center;
   background-size: cover;
   color: $textWhite;
   &:after {
@@ -27,7 +27,7 @@
     padding: 2rem 0;
   }
   .valuesList {
-    z-index: 2;
+    z-index: 1;
 
     list-style: none;
   }

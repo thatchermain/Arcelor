@@ -3,7 +3,7 @@ import styles from "../styles/Colab.module.scss";
 // import StazImg from "../images/Staz.png";
 // import PraktykiImg from "../images/Praktyki.png";
 // import PracaImg from "../images/Praca.png";
-import Colaboration from "../images/Colab.png";
+import Colaboration from "../images/Colab.webp";
 // import Button from "./Button";
 // import BtnArrow from "../images/BtbArrow.png";
 // import RecruitmentStep from "./RecruitmentStep";

@@ -37,9 +37,11 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   height: 100%;
-  // @media screen and (max-width:1200px) {
-  //   max-width: 900px;
-  // }
+
+  @media screen and (min-width: 450px) {
+    padding: 0 calc(1rem + 5vw);
+    // max-width: 900px;
+  }
   // @media screen and (max-width:900px) {
   //   padding: 0 2rem;
   // }

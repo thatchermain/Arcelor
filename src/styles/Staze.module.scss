@@ -137,13 +137,14 @@
 .image {
   background-image: url("../images//Staz-mobile.webp");
   background-repeat: no-repeat;
+  background-size: contain;
   max-width: 90vw;
   min-height: 410px;
   margin: 2rem 0 1rem;
 }
 .info {
   // max-width: 90vw;
-  padding: 2rem 1rem 0 1rem;
+  padding: 2rem 0rem 0 0rem;
   // border: 2px solid blue;
   display: flex;
   flex-direction: column;
@@ -208,6 +209,10 @@
   }
 }
 
+.customLink {
+  text-decoration: none;
+  color: $textBlack;
+}
 @keyframes slide {
   from {
     transform: translateX(100%);

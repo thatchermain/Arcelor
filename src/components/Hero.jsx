@@ -7,7 +7,11 @@ const Hero = () => {
       <div className={styles.heroImg}>
         <div className="container">
           <div className={styles.wrapper}>
-            <h1 className={styles.h1}>Feel the steel</h1>
+            <div className={styles.title}>
+              <h1 className={styles.h1}>Feel</h1>
+              <h1 className={styles.h1}>the</h1>
+              <h1 className={styles.h1}>steel</h1>
+            </div>
             <p className={styles.moreInfo}>
               Zjedź w dół <br />
               dowiedz się więcej

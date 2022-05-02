@@ -6,7 +6,7 @@ import BtnArrow from "../images/BtbArrow.png";
 
 const Benefits = ({ toggle, isOpen, setIsOpen }) => {
   return (
-    <section>
+    <section id="benefity">
       <div className={styles.wrapper}>
         <h3 className={styles.h3}>Benefity</h3>
         <div className={styles.benefits}>

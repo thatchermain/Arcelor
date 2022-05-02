@@ -108,9 +108,10 @@
   width: 100vw;
   max-height: 100vh;
   // max-height: 560px;
-  background: no-repeat url("../images/Hero-mobile.webp") center;
-  background-size: contain;
-  background-size: 105%;
+  background: no-repeat url("../images/Hero-mobile.webp");
+  background-size: cover;
+  // background-size: 100%;
+  background-position: 100% 100%;
   color: $textWhite;
   font-family: "Gilroy-Medium";
 }
@@ -118,6 +119,9 @@
   // height: 100%;
   padding: 7rem 7rem 0 1rem;
 }
+// .title {
+//   padding: 0 19rem 0 0;
+// }
 .h1 {
   font-size: 5rem;
 }
@@ -133,7 +137,7 @@
     top: 3rem;
     left: 1rem;
     transform-origin: 0 0;
-    animation: slide 2s infinite;
+    animation: slide 1.4s infinite;
   }
 }
 

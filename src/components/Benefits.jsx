@@ -18,7 +18,7 @@ const Benefits = ({ toggle, isOpen, setIsOpen }) => {
         </div>
         <div className={styles.hiperlink} onClick={toggle}>
           <img src={BtnArrow} alt="Strzałka w lewo" />
-          <span className={styles.span}>Wróc</span>
+          <span className={styles.span}>Wróć</span>
         </div>
       </div>
     </section>

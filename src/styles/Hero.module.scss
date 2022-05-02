@@ -124,12 +124,12 @@
 .moreInfo {
   position: relative;
   padding: 4rem 0 3rem 2rem;
-  &::before {
+  &:before {
     position: absolute;
     content: "";
     width: 1px;
-    height: 145px;
-    background: $mainRed;
+    height: 140px;
+    background-color: $mainRed;
     top: 3rem;
     left: 1rem;
     transform-origin: 0 0;

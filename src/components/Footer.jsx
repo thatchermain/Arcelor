@@ -3,6 +3,7 @@ import styles from "../styles/Footer.module.scss";
 import Twitter from "../images/Twitter.png";
 import Linkedin from "../images/Linkedin.png";
 import YouTube from "../images/YouTube.png";
+import { ImFacebook } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -31,6 +32,9 @@ const Footer = () => {
               </div>
               <div className={styles.icon}>
                 <img src={YouTube} alt="" />
+              </div>
+              <div className={styles.icon}>
+                <ImFacebook size="22px" />
               </div>
             </div>
             {/* </div> */}

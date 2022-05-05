@@ -3,11 +3,9 @@
 .values {
   z-index: -1;
   position: relative;
-  // margin-top: 75px;
   top: -1px;
   width: 100vw;
   min-height: 730px;
-  //   height: auto;
   background: no-repeat url("../images/Values-mobile.webp") center;
   background-size: cover;
   color: $textWhite;
@@ -20,19 +18,41 @@
     height: 100%;
     background-color: rgba($textBlack, 0.6);
   }
-  .h2White {
+  @media screen and (min-width: 660px) {
+    z-index: -1;
+    position: relative;
+    top: -1px;
+    width: 100vw;
+    min-height: 910px;
+    background: no-repeat url("../images/Values-tablet.webp") center;
+    background-size: cover;
     color: $textWhite;
-    font-size: 1.8rem;
-    z-index: 2;
-    padding: 2rem 0;
+    &:after {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: rgba($textBlack, 0.6);
+    }
   }
-  .valuesList {
-    z-index: 1;
+}
 
-    list-style: none;
+.h2White {
+  color: $textWhite;
+  font-size: 1.8rem;
+  z-index: 2;
+  padding: 2rem 0;
+  @media screen and (min-width: 660px) {
+    font-size: 3.1rem;
+    padding: 4rem 0 2rem;
   }
-  .valueListItem {
-    // padding: 0 0 0 3rem;
-    font-size: 0.9rem;
-  }
+}
+.valuesList {
+  z-index: 1;
+  list-style: none;
+}
+.valueListItem {
+  font-size: 0.9rem;
 }

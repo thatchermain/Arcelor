@@ -14,7 +14,8 @@ import Button from "./Button";
 const Praktyki = () => {
   return (
     <article id="praktyki" className={styles.wrapper}>
-      <div className="container">
+      {/* <div className="container"> */}
+      <div>
         <div className={`${styles.info}`}>
           <h2 className={styles.h2}>Praktyki</h2>
           <p className={styles.paragraph}>

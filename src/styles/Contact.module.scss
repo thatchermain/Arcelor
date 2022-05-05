@@ -10,6 +10,9 @@
   color: $textWhite;
   font-size: 1.8rem;
   padding: 2rem 0;
+  @media screen and (min-width: 660px) {
+    font-size: 3.1rem;
+  }
 }
 .contactWrapper {
   padding: 0 0 3rem;
@@ -17,6 +20,9 @@
 .contactParagraph {
   font-size: 1.1rem;
   padding: 0 1rem 1rem 0;
+  @media screen and (min-width: 660px) {
+    font-size: 1.3rem;
+  }
 }
 .contactName {
   padding: 1rem 0 0;

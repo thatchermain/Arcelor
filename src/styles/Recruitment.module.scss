@@ -5,21 +5,26 @@
   font-weight: 700;
   color: $textDark;
   padding: 1rem 0 0rem;
+  @media screen and (min-width: 660px) {
+    font-size: 3.1rem;
+  }
 }
 .h3 {
   position: relative;
   font-size: 1.4rem;
   padding: 3rem 0 0rem;
   margin: 0 2rem 0 3rem;
-  &:after {
-    position: absolute;
-    content: "";
-    height: 1px;
-    width: 100%;
-    left: 0;
-    bottom: -1rem;
-    // margin: 0 1.5rem;
-    background-color: #000000;
+  // &:after {
+  //   position: absolute;
+  //   content: "";
+  //   height: 1px;
+  //   width: 100%;
+  //   left: 0;
+  //   bottom: -1rem;
+  //   background-color: #000000;
+  // }
+  @media screen and (min-width: 660px) {
+    font-size: 1.5rem;
   }
 }
 .wrapper {

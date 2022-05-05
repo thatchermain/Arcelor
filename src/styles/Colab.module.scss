@@ -7,9 +7,18 @@
 }
 .coopParagraph {
   margin-bottom: 2rem;
+  @media screen and (min-width: 660px) {
+    font-size: 1.1rem;
+    width: 70%;
+  }
 }
 .coopImg {
   padding: 0 0 2rem;
+  @media screen and (min-width: 660px) {
+    width: 80%;
+    margin-left: auto;
+    padding: 2rem 0;
+  }
 }
 .coopPicture {
   width: 100%;
@@ -19,10 +28,16 @@
   font-weight: 700;
   color: $textDark;
   padding: 1rem 0 2rem;
+  @media screen and (min-width: 660px) {
+    font-size: 2.8rem;
+  }
 }
 .list {
   padding: 0 0 0 2rem;
   list-style: none;
+  @media screen and (min-width: 660px) {
+    width: 70%;
+  }
 }
 .listItem {
   font-size: 0.9rem;
@@ -37,5 +52,9 @@
     background-color: $mainRed;
     left: -15px;
     top: 12px;
+  }
+  @media screen and (min-width: 660px) {
+    font-size: 1.1rem;
+    padding: 0.7rem 0;
   }
 }

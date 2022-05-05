@@ -17,11 +17,9 @@
 .menu {
   display: flex;
   width: 80%;
-  //   background-color: yellow;
-  @media screen and (max-width:900px) {
+  @media screen and (max-width: 900px) {
     display: none;
-    
-}
+  }
 }
 .navList {
   display: flex;

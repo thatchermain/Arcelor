@@ -9,42 +9,54 @@
 .image {
   background-image: url("../images/Praktyki-mobile.webp");
   background-repeat: no-repeat;
-  // max-width: 90vw;
   min-height: 410px;
   margin: 2rem 0 0;
   background-position: 100% 0;
+  @media screen and (min-width: 660px) {
+    background-image: url("../images//Praktyki-tablet.webp");
+    background-size: contain;
+    min-height: 80vh;
+    margin: 2rem 0 1rem;
+  }
 }
 
 .info {
-  // max-width: 740px;
-  padding: 0 0rem 2rem 0rem;
-  // border: 2px solid blue;
+  padding: 0 0rem 2rem 1rem;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
+  @media screen and (min-width: 660px) {
+    padding: 0 0rem 2rem 3rem;
+    max-width: 550px;
+    // margin-left: -7rem;
+  }
 }
 .h4 {
   color: $mainRed;
   font-size: 1.5rem;
   font-weight: 400;
+  @media screen and (min-width: 660px) {
+    font-size: 1.5rem;
+  }
 }
 .h2 {
   font-size: 1.8rem;
   font-weight: 700;
   color: $textDark;
   padding: 1rem 0 0;
+  @media screen and (min-width: 660px) {
+    font-size: 3.1rem;
+  }
 }
 .paragraph {
   line-height: 23px;
   font-size: 0.9rem;
   color: $textBlack;
   padding: 1rem 0;
+  @media screen and (min-width: 660px) {
+    font-size: 1.1rem;
+  }
 }
-// .imageRight{
-//     border: 2px solid red;
-//         max-width: 540px;
-//   justify-self: end;
-// }
+
 .infoLeft {
   padding: 4rem 10rem 4rem 10rem;
   width: 60%;

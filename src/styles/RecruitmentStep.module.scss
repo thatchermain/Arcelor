@@ -10,14 +10,15 @@
 .span {
   font-size: 1.6rem;
   color: $bgLight;
+  @media screen and (min-width: 660px) {
+    font-size: 2.2rem;
+  }
 }
 .details {
   position: relative;
-  //   padding: 0 4rem 0 0;
   display: flex;
   flex-direction: column;
   width: 80%;
-
   &:after {
     position: absolute;
     content: "";
@@ -28,21 +29,53 @@
     margin: 0 1.5rem;
     background-color: #000000;
   }
+
+  @media screen and (min-width: 660px) {
+    max-width: 70%;
+  }
 }
 .title {
   color: $mainRed;
   font-size: 1.1rem;
   padding: 0.5rem 0 0 1.5rem;
+  @media screen and (min-width: 660px) {
+    font-size: 1.3rem;
+  }
 }
 .description {
   position: relative;
   padding: 0.5rem 0 0 1.5rem;
   font-size: 0.8rem;
+  @media screen and (min-width: 660px) {
+    font-size: 1rem;
+    padding: 1rem 0 0 1.5rem;
+    line-height: 27px;
+  }
 }
-// .noAfter {
-//   position: relative;
-//   padding: 0 4rem 0 0;
-//   display: flex;
-//   flex-direction: column;
-//   width: 80%;
-// }
+
+.firstOnList {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  &:after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: -1rem;
+    margin: 0 1.5rem;
+    background-color: #000000;
+  }
+  &:before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0 1.5rem;
+    background-color: #eb0000;
+  }
+}

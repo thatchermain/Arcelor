@@ -10,34 +10,50 @@
   max-width: 90vw;
   min-height: 410px;
   margin: 2rem 0 1rem;
+  @media screen and (min-width: 660px) {
+    background-image: url("../images//Praca-tablet.webp");
+    background-size: contain;
+    max-width: 90vw;
+    min-height: 80vh;
+    margin: 2rem 0 1rem;
+  }
 }
 .picture {
   width: 100%;
 }
 .info {
-  // max-width: 90vw;
   padding: 2rem 0rem 0 0rem;
-  // border: 2px solid blue;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
+  @media screen and (min-width: 660px) {
+    max-width: 550px;
+  }
 }
 .h4 {
   color: $mainRed;
   font-size: 1.5rem;
   font-weight: 400;
+  @media screen and (min-width: 660px) {
+    font-size: 1.5rem;
+  }
 }
 .h2 {
   font-size: 1.8rem;
   font-weight: 700;
   color: $textDark;
   padding: 1rem 0 0;
+  @media screen and (min-width: 660px) {
+    font-size: 3.1rem;
+  }
 }
 .paragraph {
   line-height: 23px;
   font-size: 0.9rem;
   color: $textBlack;
   padding: 1rem 0 0;
+  @media screen and (min-width: 660px) {
+    font-size: 1.1rem;
+  }
 }
 .list {
   padding: 0 0 2rem 1rem;

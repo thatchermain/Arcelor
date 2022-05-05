@@ -7,7 +7,7 @@ const RecruitmentStep = (props) => {
       <div className={styles.number}>
         <span className={styles.span}>{props.number}</span>
       </div>
-      <div className={styles.details}>
+      <div className={`${styles.details} ${props.addClass}`}>
         <p className={styles.title}>{props.title}</p>
         <p className={styles.description}>{props.description}</p>
       </div>

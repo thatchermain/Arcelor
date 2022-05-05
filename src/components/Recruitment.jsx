@@ -25,6 +25,7 @@ const Recruitment = (props) => {
               number="01"
               title="Przesłanie aplikacji"
               description="Wszystkie dostępne ogłoszenia rekrutacyjne znajdziesz w zakładce „Oferty pracy”. Zapoznaj się z nimi i aplikuj przez naszą wewnętrzną platformę rekrutacyjną."
+              addClass="styles.firstOnList"
             />
             <RecruitmentStep
               number="02"

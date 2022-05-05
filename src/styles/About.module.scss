@@ -1,54 +1,72 @@
 @import "../styles/variables";
-    
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    color: $textDark;
-    padding: 2rem 0 4rem;
-    
-}
-.h2{
-    font-size: 1.75rem;
-    font-family: 'Gilroy-Medium';
-    padding: 1rem 0 2rem;
-    line-height: 33px;
-}
-.h4{
-    font-size: 1.25rem;
-    font-family: 'Gilroy-Medium';
-    padding: 0 0 3rem;
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: $textDark;
+  padding: 2rem 0 4rem;
+  @media screen and (min-width: 660px) {
+    padding: 0rem 0 4rem;
+  }
 }
-.applyBtn{
-    width: 240px;
-    width: 100%;
-}
-.wrapperGray{
-    background-color: $bgLight;
-    padding:0;
-}
-.content{
-    width: 90%;
-}
-.h2Gradient{
+.h2 {
+  font-size: 1.75rem;
+  font-family: "Gilroy-Medium";
+  padding: 1rem 0 2rem;
+  line-height: 33px;
+  @media screen and (min-width: 660px) {
     font-size: 2.5rem;
-    font-family: 'Gilroy-Bold';
-    background: -webkit-linear-gradient(left, #9B1F78,#EF6A44 30%);
-    background-clip:text ;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    padding: 0rem 0 2rem;
+    line-height: 48px;
+  }
 }
-.h3{
-    padding: 2rem 0;
-    font-size: 1.25rem;
-    color:$textBlack;
+.h4 {
+  font-size: 1.25rem;
+  font-family: "Gilroy-Medium";
+  @media screen and (min-width: 660px) {
+    padding: 0 0 2rem;
+    font-size: 1.4rem;
+  }
 }
-.paragraph{
-    font-size: .9rem;
-    font-size: 15px;
-    color:$textBlack;
-    padding: 2rem 0 0;
-    
-
+.applyBtn {
+  width: 240px;
+  width: 100%;
+}
+.wrapperGray {
+  background-color: $bgLight;
+  padding: 0;
+}
+.content {
+  width: 90%;
+}
+.h2Gradient {
+  font-size: 2.5rem;
+  font-family: "Gilroy-Bold";
+  background: -webkit-linear-gradient(left, #9b1f78, #ef6a44 30%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @media screen and (min-width: 660px) {
+    font-size: 3rem;
+    padding: 2rem 0 0rem;
+    line-height: 48px;
+  }
+}
+.h3 {
+  padding: 2rem 0;
+  font-size: 1.25rem;
+  color: $textBlack;
+  @media screen and (min-width: 660px) {
+    font-size: 1.8rem;
+  }
+}
+.paragraph {
+  font-size: 0.9rem;
+  font-size: 15px;
+  color: $textBlack;
+  padding: 2rem 0 0;
+  @media screen and (min-width: 660px) {
+    font-size: 1.1rem;
+  }
 }

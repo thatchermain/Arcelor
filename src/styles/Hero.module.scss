@@ -20,11 +20,31 @@
     width: 100vw;
     min-height: 850px;
   }
+  @media screen and (min-width: 1200px) {
+    background: no-repeat url("../images/Hero.webp");
+    background-size: contain;
+    // background-position: 30% 100%;
+    width: 100vw;
+    min-height: 650px;
+  }
+  @media screen and (min-width: 1360px) {
+    background: no-repeat url("../images/Hero.webp");
+    background-size: cover;
+    min-height: 60vh;
+    background-position: 100% 100%;
+  }
 }
 .wrapper {
   padding: 7rem 7rem 0 1rem;
 }
 
+.title {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 0;
+  }
+}
 .h1 {
   font-size: 5rem;
   @media screen and (min-width: 660px) {
@@ -44,6 +64,18 @@
     left: 1rem;
     transform-origin: 0 0;
     animation: slide 1.4s infinite;
+  }
+  @media screen and (min-width: 1200px) {
+    padding: 9rem 0 3rem 2rem;
+    &:before {
+      top: 8rem;
+    }
+  }
+  @media screen and (min-width: 1360px) {
+    padding: 15rem 0 3rem 2rem;
+    &:before {
+      top: 14rem;
+    }
   }
 }
 

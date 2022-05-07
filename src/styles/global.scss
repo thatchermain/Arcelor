@@ -41,7 +41,8 @@ body {
   @media screen and (min-width: 450px) {
     padding: 0 calc(1rem + 5vw);
   }
-  @media screen and (min-width: 660px) {
+  @media screen and (min-width: 1360px) {
+    padding: 0;
   }
 }
 .link {

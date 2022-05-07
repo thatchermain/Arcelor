@@ -9,6 +9,9 @@
   @media screen and (min-width: 660px) {
     padding: 0rem 0 4rem;
   }
+  @media screen and (min-width: 1360px) {
+    padding: 5rem 0 4rem;
+  }
 }
 .h2 {
   font-size: 1.75rem;
@@ -51,6 +54,9 @@
     font-size: 3rem;
     padding: 2rem 0 0rem;
     line-height: 48px;
+  }
+  @media screen and (min-width: 1360px) {
+    padding: 0;
   }
 }
 .h3 {

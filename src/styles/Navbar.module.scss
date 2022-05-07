@@ -1,12 +1,16 @@
 @import "./variables";
 
 .nav {
+  display: none;
   position: fixed;
   width: 100vw;
   height: 75px;
   margin: 0 auto;
   background-color: $navBg;
   z-index: 10;
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
 }
 .wrapper {
   display: flex;

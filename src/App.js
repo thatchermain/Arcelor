@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <header>
         <NavbarMobile />
+        <Navbar />
         <Hero />
       </header>
       <About />

@@ -26,9 +26,25 @@
   @media screen and (min-width: 660px) {
     font-size: 1.5rem;
   }
+  @media screen and (min-width: 1360px) {
+    padding: 3rem 0;
+    &:after {
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 85%;
+      left: 0;
+      bottom: 0rem;
+      background-color: #000000;
+    }
+  }
 }
 .wrapper {
   padding: 0 0 3rem;
+  @media screen and (min-width: 1360px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 .list {
   padding: 0 2rem 0rem;

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section>
       <div className="container">
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} ${styles.wrapperShort}`}>
           <h2 className={styles.h2}>
             Chcesz, aby Twoja praca miała wpływ na przyszłe pokolenia?
           </h2>

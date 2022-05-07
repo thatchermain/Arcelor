@@ -3,7 +3,7 @@ import styles from "../styles/Colab.module.scss";
 // import StazImg from "../images/Staz.png";
 // import PraktykiImg from "../images/Praktyki.png";
 // import PracaImg from "../images/Praca.png";
-import Colaboration from "../images/Colab.webp";
+import Colaboration from "../images/Colab-desktop.webp";
 // import Button from "./Button";
 // import BtnArrow from "../images/BtbArrow.png";
 // import RecruitmentStep from "./RecruitmentStep";
@@ -23,7 +23,7 @@ const Colab = () => {
           <div className={styles.coopTitle}>
             <h2 className={styles.h2}>Nasza współpraca z uczelniami</h2>
           </div>
-          <div className={styles.wrapper}>
+          <div className={styles.content}>
             <div className={styles.column}>
               <div className={styles.coopParagraph}>
                 <p>

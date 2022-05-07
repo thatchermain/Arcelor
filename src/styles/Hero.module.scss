@@ -30,8 +30,8 @@
   @media screen and (min-width: 1360px) {
     background: no-repeat url("../images/Hero.webp");
     background-size: cover;
-    min-height: 60vh;
-    background-position: 100% 100%;
+    min-height: auto;
+    // background-position: 100% 100%;
   }
 }
 .wrapper {
@@ -49,6 +49,9 @@
   font-size: 5rem;
   @media screen and (min-width: 660px) {
     font-size: 8.5rem;
+  }
+  @media screen and (min-width: 1360px) {
+    font-size: 10.5rem;
   }
 }
 .moreInfo {

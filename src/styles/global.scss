@@ -43,6 +43,12 @@ body {
   }
   @media screen and (min-width: 1360px) {
     padding: 0;
+    height: auto;
+  }
+  @media screen and (min-width: 1660px) {
+    max-width: 1440px;
+    padding: 0;
+    height: auto;
   }
 }
 .link {

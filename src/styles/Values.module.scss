@@ -37,8 +37,34 @@
       background-color: rgba($textBlack, 0.6);
     }
   }
+  @media screen and (min-width: 1360px) {
+    z-index: -1;
+    position: relative;
+    top: -1px;
+    width: 100vw;
+    // min-height: 910px;
+    background: no-repeat url("../images/Values.webp") center;
+    background-size: cover;
+    color: $textWhite;
+    &:after {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: rgba($textBlack, 0.6);
+    }
+  }
 }
-
+.wrapper {
+  @media screen and (min-width: 1360px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+    padding: 2rem 0 0;
+  }
+}
 .h2White {
   color: $textWhite;
   font-size: 1.8rem;
@@ -55,4 +81,8 @@
 }
 .valueListItem {
   font-size: 0.9rem;
+  @media screen and (min-width: 1360px) {
+    font-size: 1rem;
+    padding: 1rem 0 0;
+  }
 }

@@ -23,8 +23,8 @@ const Staze = () => {
         <div className={styles.image}>
           {/* <img src={StazImg} alt="" className={styles.picture} /> */}
         </div>
-        <div className="">
-          <div className={styles.info}>
+        <div className={styles.info}>
+          <div className="container">
             {isOpen ? (
               <Benefits toggle={toggle} isOpen={isOpen} setIsOpen={setIsOpen} />
             ) : (

@@ -1,8 +1,11 @@
 @import "./variables";
 
 .wrapper {
-  padding: 0 0 2rem;
+  padding: 2rem 0 2rem;
   font-family: "Gilroy-Regular";
+  @media screen and (min-width: 1024px) {
+    padding: 4rem 0 0;
+  }
 }
 .h3 {
   font-size: 1.25rem;

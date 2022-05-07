@@ -27,14 +27,14 @@
   }
 }
 .coopImg {
-  padding: 0 0 2rem;
+  padding: 2rem 0 2rem;
   @media screen and (min-width: 660px) {
     width: 80%;
     margin-left: auto;
     padding: 2rem 0;
   }
   @media screen and (min-width: 1360px) {
-    padding: 0;
+    padding: 0 0 2rem;
     width: 100%;
   }
 }

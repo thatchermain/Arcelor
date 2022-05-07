@@ -17,8 +17,8 @@ const Praktyki = () => {
       <div className={styles.desktopView}>
         <div className={styles.wrapper}>
           <div>
-            <div className="container">
-              <div className={`${styles.info}`}>
+            <div className={`${styles.info}`}>
+              <div className="container">
                 <h2 className={styles.h2}>Praktyki</h2>
                 <p className={styles.paragraph}>
                   Uczniów szkół technicznych i zawodowych, a także studentów

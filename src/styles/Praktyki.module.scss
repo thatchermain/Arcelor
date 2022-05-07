@@ -42,11 +42,11 @@
 }
 
 .info {
-  padding: 0 0rem 2rem 1rem;
+  padding: 0 0rem 2rem 0rem;
   display: flex;
   flex-direction: column;
   @media screen and (min-width: 660px) {
-    padding: 0 0rem 2rem 3rem;
+    padding: 0 0rem 2rem 0;
     max-width: 550px;
     // margin-left: -7rem;
   }

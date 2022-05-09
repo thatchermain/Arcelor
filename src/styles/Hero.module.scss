@@ -6,7 +6,7 @@
 
 .heroImg {
   width: 100vw;
-  max-height: 100vh;
+  // max-height: 100vh;
   background: no-repeat url("../images/Hero-mobile.webp");
   background-size: cover;
   background-position: 100% 100%;
@@ -31,7 +31,7 @@
     background: no-repeat url("../images/Hero.webp");
     background-size: cover;
     min-height: auto;
-    // background-position: 100% 100%;
+    background-position: 100% 100%;
   }
 }
 .wrapper {

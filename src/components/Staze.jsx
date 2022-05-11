@@ -63,8 +63,14 @@ const Staze = () => {
                     <img src={BtnArrow} alt="Strzałka w prawo" />
                   </div>
                 </a>
-
-                <Button title="Sprawdź oferty stażowe" />
+                <a
+                  className="link"
+                  href="https://emfg.fa.em4.oraclecloud.com/hcmUI/CandidateExperience/pl/sites/CX_1001/requisitions?keyword=sta%C5%BC"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button title="Sprawdź oferty stażowe" />
+                </a>
               </>
             )}
           </div>

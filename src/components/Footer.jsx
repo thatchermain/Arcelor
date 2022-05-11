@@ -25,16 +25,44 @@ const Footer = () => {
             {/* <div className={styles.column}> */}
             <div className={styles.icons}>
               <div className={styles.icon}>
-                <img src={Linkedin} alt="" />
+                <a
+                  className="link"
+                  href="https://www.linkedin.com/company/arcelormittal-poland-s-a/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Linkedin} alt="" />
+                </a>
               </div>
               <div className={styles.icon}>
-                <img src={Twitter} alt="" />
+                <a
+                  className="link"
+                  href="https://twitter.com/arcelormittalpl"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={Twitter} alt="" />
+                </a>
               </div>
               <div className={styles.icon}>
-                <img src={YouTube} alt="" />
+                <a
+                  className="link"
+                  href="https://www.youtube.com/channel/UCVtDcmERIrG1EwSKrNLAylw"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src={YouTube} alt="" />
+                </a>
               </div>
               <div className={styles.icon}>
-                <ImFacebook size="22px" />
+                <a
+                  className="link-footer"
+                  href="https://www.facebook.com/ArcelorMittalPoland/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <ImFacebook size="22px" />
+                </a>
               </div>
             </div>
             {/* </div> */}

@@ -22,8 +22,9 @@ const Praktyki = () => {
                 <h2 className={styles.h2}>Praktyki</h2>
                 <p className={styles.paragraph}>
                   Uczniów szkół technicznych i zawodowych, a także studentów
-                  uczelni wyższych zachęcamy do realizowania praktyk zawodowych
-                  pod okiem doświadczonych ekspertów ArcelorMittal Poland.
+                  uczelni wyższych zachęcamy do realizowania bezpłatnych praktyk
+                  zawodowych pod okiem doświadczonych ekspertów ArcelorMittal
+                  Poland.
                 </p>
                 <p className={styles.paragraph}>
                   Jeśli lubisz zdobywać nowe umiejętności i poszerzać swoją
@@ -42,8 +43,14 @@ const Praktyki = () => {
                   <br />
                   <br />
                 </p>
-
-                <Button title="Sprawdź oferty praktyk" />
+                <a
+                  className="link"
+                  href="https://emfg.fa.em4.oraclecloud.com/hcmUI/CandidateExperience/pl/sites/CX_1001/requisitions?keyword=praktyki"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Button title="Sprawdź oferty praktyk" />
+                </a>
               </div>
             </div>
           </div>

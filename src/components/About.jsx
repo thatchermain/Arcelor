@@ -21,11 +21,18 @@ const About = () => {
             Aplikuj na staż w ArcelorMittal <br /> Poland i przejmij stery
             swojej kariery.
           </h4>
-          <Button
-            title="Aplikuj"
-            additionalClass={styles.applyBtn}
-            className={styles.applyBtn}
-          />
+          <a
+            className="link"
+            href="https://poland.arcelormittal.com/kariera/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              title="Aplikuj"
+              additionalClass={styles.applyBtn}
+              className={styles.applyBtn}
+            />
+          </a>
         </div>
       </div>
       <div className={styles.wrapperGray} id="o_nas">

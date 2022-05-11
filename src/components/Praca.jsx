@@ -49,8 +49,14 @@ const Praca = () => {
                 zdrowie, ekologia, kultura i sztuka.
               </li>
             </ul>
-
-            <Button title="Sprawdź oferty pracy" />
+            <a
+              className="link"
+              href="https://emfg.fa.em4.oraclecloud.com/hcmUI/CandidateExperience/pl/sites/CX_1001/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button title="Sprawdź oferty pracy" />
+            </a>
           </div>
         </div>
       </div>

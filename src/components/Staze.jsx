@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import styles from "../styles/Staze.module.scss";
-// import StazImg from "../images/Staz.png";
-// import PraktykiImg from "../images/Praktyki.png";
-// import PracaImg from "../images/Praca.png";
-// import Colab from "../images/Colab.png";
 import Button from "./Button";
 import BtnArrow from "../images/BtbArrow.png";
-// import RecruitmentStep from "./RecruitmentStep";
-// import ValuesListItem from "./ValuesListItem";
 import Benefits from "./Benefits";
 
 const Staze = () => {
@@ -20,9 +14,7 @@ const Staze = () => {
   return (
     <article id="staze">
       <div className={styles.desktopView}>
-        <div className={styles.image}>
-          {/* <img src={StazImg} alt="" className={styles.picture} /> */}
-        </div>
+        <div className={styles.image}></div>
         <div className={styles.info}>
           <div className="container">
             {isOpen ? (

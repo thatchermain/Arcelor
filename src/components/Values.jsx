@@ -1,18 +1,6 @@
 import React from "react";
 import styles from "../styles/Values.module.scss";
-// import StazImg from "../images/Staz.png";
-// import PraktykiImg from "../images/Praktyki.png";
-// import PracaImg from "../images/Praca.png";
-// import Colab from "../images/Colab.png";
-// import Button from "./Button";
-// import BtnArrow from "../images/BtbArrow.png";
-// import RecruitmentStep from "./RecruitmentStep";
 import ValuesListItem from "./ValuesListItem";
-// import Benefits from "./Benefits";
-// import Staze from "./Staze";
-// import Praktyki from "./Praktyki";
-// import Praca from "./Praca";
-// import Recruitment from "./Recruitment";
 
 const Values = () => {
   return (
@@ -20,10 +8,7 @@ const Values = () => {
       <div className={styles.values}>
         <div className="container">
           <div className={`${styles.wrapper}`}>
-            {/* <div className={styles.column}> */}
             <h2 className={styles.h2White}>Nasze wartości</h2>
-            {/* </div> */}
-            {/* <div className={styles.column}> */}
             <ul className={styles.valuesList}>
               <li className={styles.valueListItem}>
                 <ValuesListItem
@@ -53,7 +38,6 @@ const Values = () => {
                 />
               </li>
             </ul>
-            {/* </div> */}
           </div>
         </div>
       </div>

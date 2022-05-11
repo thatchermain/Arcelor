@@ -9,29 +9,9 @@
 }
 body {
   overflow-x: hidden;
-  font-family: "Gilroy-Regular";
+  font-family: "Gilroy-Regular", sans-serif;
 }
-///////////////
-// /* width */
-// ::-webkit-scrollbar {
-//   width: 10px;
-// }
 
-// /* Track */
-// ::-webkit-scrollbar-track {
-//   background: #eb0e0e;
-// }
-
-// /* Handle */
-// ::-webkit-scrollbar-thumb {
-//   background: rgb(34, 8, 150);
-// }
-
-// /* Handle on hover */
-// ::-webkit-scrollbar-thumb:hover {
-//   background: rgb(13, 138, 8);
-// }
-///////////////
 .container {
   padding: 0 1rem;
   max-width: 1140px;

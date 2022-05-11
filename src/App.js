@@ -5,7 +5,6 @@ import About from "./components/About";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 import NavbarMobile from "./components/NavbarMobile";
-// import Benefits from "./components/Benefits";
 
 function App() {
   return (

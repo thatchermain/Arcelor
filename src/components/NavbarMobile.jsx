@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "../styles/NavbarMobile.module.scss";
 import Logo from "../images/logo-mobile.png";
-import Menu from "../images/menu.png";
 import LogoMobileActive from "../images/logo-mobile-active.png";
 
 const NavbarMobile = ({ toggle, isOpen, setIsOpen }) => {
@@ -36,9 +35,6 @@ const NavbarMobile = ({ toggle, isOpen, setIsOpen }) => {
                   !showMobile ? `${styles.menuOpen}` : `${styles.menuClose}`
                 }
               ></div>
-              {/* // <img src={Menu} alt="Menu" /> */}
-
-              {/* <div className={styles.menuClose}></div> */}
             </div>
           </div>
         </div>
@@ -87,7 +83,6 @@ const NavbarMobile = ({ toggle, isOpen, setIsOpen }) => {
             <li
               className={styles.listItem}
               onClick={() => setShowMobile(false)}
-              // onClick={toggle}
               toggle={toggle}
               isOpen={isOpen}
               setIsOpen={setIsOpen}

@@ -16,8 +16,6 @@ const About = () => {
             <br />
             <br />
             <br />
-            {/* </h4>
-          <h4 className={styles.h4}> */}
             Aplikuj na staż w ArcelorMittal <br /> Poland i przejmij stery
             swojej kariery.
           </h4>

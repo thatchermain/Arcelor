@@ -22,7 +22,6 @@ const Footer = () => {
                 {"  "}2022 ArcelorMittal
               </span>
             </div>
-            {/* <div className={styles.column}> */}
             <div className={styles.icons}>
               <div className={styles.icon}>
                 <a
@@ -65,7 +64,6 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            {/* </div> */}
           </div>
         </div>
       </div>

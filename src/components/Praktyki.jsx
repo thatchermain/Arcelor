@@ -1,15 +1,6 @@
-// import React from "react";
+import React from "react";
 import styles from "../styles/Praktyki.module.scss";
-// import StazImg from "../images/Staz.png";
-import PraktykiImg from "../images/Praktyki.webp";
-// import PracaImg from "../images/Praca.png";
-// import Colab from "../images/Colab.png";
 import Button from "./Button";
-// import BtnArrow from "../images/BtbArrow.png";
-// import RecruitmentStep from "./RecruitmentStep";
-// import ValuesListItem from "./ValuesListItem";
-// import Benefits from "./Benefits";
-// import Staze from "./Staze";
 
 const Praktyki = () => {
   return (
@@ -54,9 +45,7 @@ const Praktyki = () => {
               </div>
             </div>
           </div>
-          <div className={styles.image}>
-            {/* <img src={PraktykiImg} alt="" className={styles.picture} /> */}
-          </div>
+          <div className={styles.image}></div>
         </div>
       </div>
     </article>

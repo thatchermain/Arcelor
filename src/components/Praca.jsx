@@ -1,23 +1,12 @@
 import React from "react";
 import styles from "../styles/Praca.module.scss";
-// import StazImg from "../images/Staz.png";
-// import PraktykiImg from "../images/Praktyki.png";
-import PracaImg from "../images/Praca.webp";
-// import Colab from "../images/Colab.png";
 import Button from "./Button";
-// import BtnArrow from "../images/BtbArrow.png";
-// import RecruitmentStep from "./RecruitmentStep";
-// import ValuesListItem from "./ValuesListItem";
-// import Benefits from "./Benefits";
-// import Staze from "./Staze";
 
 const Praca = () => {
   return (
     <article id="praca" className={styles.wrapper}>
       <div className={styles.desktopView}>
-        <div className={styles.image}>
-          {/* <img src={PracaImg} alt="" className={styles.picture} /> */}
-        </div>
+        <div className={styles.image}></div>
         <div className={styles.info}>
           <div className="container">
             <h2 className={styles.h2}>Praca</h2>

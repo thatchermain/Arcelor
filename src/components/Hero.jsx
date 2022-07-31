@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/Hero.module.scss";
 
 const Hero = () => {
+  const [pic, setPic] = useState(true);
   return (
     <header id="home">
-      <div className={styles.heroImg}>
+      <div className={pic ? styles.heroImg : styles.heroImgAlt}>
+        <button className="testbutton" onClick={() => setPic(!pic)}>
+          Change
+        </button>
         <div className="container">
           <div className={styles.wrapper}>
             <div className={styles.title}>

@@ -12,6 +12,17 @@ const Contact = () => {
           <div className={styles.contactWrapper}>
             <div className={styles.column}>
               <p className={styles.contactParagraph}>
+                Bądź na bieżąco i zaobserwuj nasze konto na{" "}
+                <a
+                  href="https://www.instagram.com/arcelormittal_poland /"
+                  target="_blank"
+                  rel="noreferrer"
+                  className={styles.instagram}
+                >
+                  Instagramie
+                </a>
+              </p>
+              <p className={styles.contactParagraph}>
                 Jeśli masz pytania lub wątpliwości, napisz do nas na:
               </p>
             </div>

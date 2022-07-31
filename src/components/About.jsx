@@ -21,7 +21,7 @@ const About = () => {
           </h4>
           <a
             className="link"
-            href="https://poland.arcelormittal.com/kariera/"
+            href="https://emfg.fa.em4.oraclecloud.com/hcmUI/CandidateExperience/pl/sites/CX_1001/"
             target="_blank"
             rel="noreferrer"
           >

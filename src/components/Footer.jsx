@@ -3,7 +3,7 @@ import styles from "../styles/Footer.module.scss";
 import Twitter from "../images/Twitter.png";
 import Linkedin from "../images/Linkedin.png";
 import YouTube from "../images/YouTube.png";
-import { ImFacebook } from "react-icons/im";
+import { ImFacebook, ImInstagram } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -61,6 +61,16 @@ const Footer = () => {
                   rel="noreferrer"
                 >
                   <ImFacebook size="22px" />
+                </a>
+              </div>
+              <div className={styles.icon}>
+                <a
+                  className="link-footer"
+                  href="https://www.instagram.com/arcelormittal_poland /"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <ImInstagram size="22px" />
                 </a>
               </div>
             </div>

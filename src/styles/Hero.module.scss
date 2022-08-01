@@ -3,40 +3,6 @@
 .heroImg {
   width: 100vw;
   // background: no-repeat url("../images/Hero-mobile.webp");
-  background: no-repeat url("../images/newHeroRes.jpg");
-  background-size: cover;
-  background-position: 30% 0%;
-  color: $textWhite;
-  font-family: "Gilroy-Medium";
-  // filter: brightness(80%);
-
-  @media screen and (min-width: 660px) {
-    // background: no-repeat url("../images/Hero-tablet.webp");
-    background: no-repeat url("../images/newHeroRes.jpg");
-    background-size: cover;
-    background-position: 100% 100%;
-    width: 100vw;
-    // min-height: 850px;
-  }
-  @media screen and (min-width: 1200px) {
-    // background: no-repeat url("../images/Hero.webp");
-    background: no-repeat url("../images/newHeroRes.jpg");
-    background-size: contain;
-    width: 100vw;
-    min-height: 650px;
-  }
-  @media screen and (min-width: 1360px) {
-    // background: no-repeat url("../images/Hero.webp");
-    background: no-repeat url("../images/newHeroRes.jpg");
-
-    background-size: cover;
-    // min-height: auto;
-    background-position: 50% 50%;
-  }
-}
-.heroImgAlt {
-  width: 100vw;
-  // background: no-repeat url("../images/Hero-mobile.webp");
   background: no-repeat url("../images/newHeroRes2.jpg");
   background-size: cover;
   background-position: 30% 0%;
